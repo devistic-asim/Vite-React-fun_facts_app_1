@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222b;
+  box-shadow: 0px 0px 5px #21222b;
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222b;
+  box-shadow: 0px 0px 5px #21222b;
+  position: relative;
+  bottom: 0;
+  align-items: center;
+}
+.navbar .brand {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar img {
+  width: clamp(2rem, 6vw, 3.2rem);
+}
+.txt-blue {
+  color: #00d8ff;
+}
+nav,
+main,
+footer {
+  padding: 0 1rem;
+}
+
+.footer {
+  padding: 10px 1rem;
+}
+
+main {
+  min-height: 74vh;
+}
+
+main ul > li::marker {
+  color: #00d8ff;
+  font-size: 1.4em;
+}
+
+/* On screens that are 762px or less, set the background color to blue */
+@media screen and (max-width: 762px) {
+  .footer {
+    flex-direction: column;
+  }
+}
