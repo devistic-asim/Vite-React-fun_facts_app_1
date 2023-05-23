@@ -38,6 +38,10 @@ footer {
 
 main {
   min-height: 74vh;
+  background-image: url(https://davidcastrocastaneda.netlify.app/img/about-logos/grey-react-logo.png);
+  background-position: right 50%;
+  background-repeat: no-repeat;
+  background-size: 30%;
 }
 
 main ul > li::marker {
